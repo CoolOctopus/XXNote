@@ -52,19 +52,19 @@ disqusShortname = ""
   # Enable / Disable Giscus comments
   giscus             = true
   giscusJsUrl        = "https://giscus.app/client.js"
-  giscusRepository   = "[ENTER REPO HERE]"
-  giscusRepositoryId = "[ENTER REPO ID HERE]"
+  giscusRepository   = "CoolOctopus/XXNote"
+  giscusRepositoryId = "R_kgDOKhF6UA"
   giscusMapping      = "pathname"
-  giscusCategory     = "[ENTER CATEGORY NAME HERE]"
-  giscusCategoryId   = "[ENTER CATEGORY ID HERE]"
+  giscusCategory     = "General"
+  giscusCategoryId   = "DIC_kwDOKhF6UM4CaLgX"
   giscusTheme        = "light"
   giscusReactions    = "1"
   giscusEmitMetadata = "0"
-  giscusLanguage     = "en"
+  giscusLanguage     = "zh-CN"
   giscusCrossOrigin  = "anonymous"
 
   # Enable / Disable Utterances comments
-  utterances            = true
+  utterances            = false
   utterancesJsUrl       = "https://utteranc.es/client.js"
   utterancesRepository  = "[ENTER REPO HERE]"
   utterancesIssueTerm   = "pathname"
