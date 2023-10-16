@@ -1,0 +1,92 @@
+#reward-container {
+    margin-left: 100px;
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+
+    input[hidden] {
+        display: none;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .reward-box {
+        display: none;
+    }
+
+    .reward-button {
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+        outline: none;
+        color: orangered;
+        min-width: 8rem;
+        border: 2px solid orangered;
+        border-radius: 3px;
+        margin-top: 15px;
+        padding: 0.6rem 1rem;
+        vertical-align: text-top;
+
+        &:active,
+        &:hover {
+            color: #ffffff;
+            border-color: orangered;
+            background-color: orangered;
+        }
+    }
+
+    .reward-input:checked~.reward-box {
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 500px;
+        padding: 1rem;
+        background-color: #fff;
+        z-index: 200;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 1.5rem 0 rgba(0,0,0,0.2);
+        box-shadow: 0 0 1.5rem 0 rgba(0,0,0,0.2);
+
+        div.close-button {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 2.25rem;
+            width: 2.25rem;
+            height: 2.25rem;
+
+            label {
+                display: flex;
+                cursor: pointer;
+                caret-color: transparent;
+            }
+        }
+
+        div.qrcode {
+            display: inline-block;
+            user-select: none;
+
+            span {
+                display: block;
+            }
+
+            img {
+                display: inline-block;
+                margin: 0.8em 2em 0;
+                width: auto;
+                max-width: 180px;
+            }
+        }
+
+    }
+
+}
