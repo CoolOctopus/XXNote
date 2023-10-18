@@ -6,13 +6,13 @@
             {{ partial "content-type/article.html" (dict "ctx" . "template_type" "single") }}
         {{ end }}
 
+    </div>
+
         {{ if ( .Params.showLeftBubbleButtons | default true ) }}
             <div id="bubble-container">
                 {{ partial "bubble-buttons.html" . }}                
             </div>
         {{ end }}
-    </div>
-
 
     {{ if ( .Params.showReward | default true ) }}
         <div id="reward-container">

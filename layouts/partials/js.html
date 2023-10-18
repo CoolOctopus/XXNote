@@ -25,6 +25,7 @@
 
 {{ $jsToConcat = $jsToConcat | append (resources.Get "js/theme.js") }}
 
+{{/* add bubble-buttons.js*/}}
 {{ $jsToConcat = $jsToConcat | append (resources.Get "js/bubble-buttons.js") }}
 
 {{ $js := $jsToConcat | resources.Concat "theme.js" }}

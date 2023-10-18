@@ -14,7 +14,7 @@ enableRobotsTXT = true
 DefaultContentLanguage = "zh-CN"
 
 # Enable / Disable Google Analytics statistics for your site
-googleAnalytics = ""
+googleAnalytics = "G-C8L9PKNW48"
 
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = ""
@@ -29,7 +29,7 @@ disqusShortname = ""
 
   # Description and meta data for the search engines
   author = "xxend.cool"
-  description = "XX笔记——分享笔记、素材、资源、工具"
+  description = "看见笔记——分享笔记、素材、资源、工具"
   keywords = "编程,设计,素材,笔记,资源,工具,素材网址,设计参考"
 
   # How many articles should be displayed at once?
@@ -80,7 +80,7 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "分享实用资源和笔记"
+    subtitle = "好内容值得被看见。"
 
     # if you want to use libravatar or gravatar for the header image
     avatarEmail = "code@lednerb.de"
@@ -141,9 +141,10 @@ disqusShortname = ""
     # define your links with FontAwesome 5 (only free icons are supported)
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
+    # { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter", rel = "me" },
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter", rel = "me" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "#", icon = "fa-brands fa-weixin"},
+      { link = "https://github.com/CoolOctopus/XXNote", icon = "fab fa-github" },
     ]
 
     # show an archive link in the footer
@@ -153,11 +154,11 @@ disqusShortname = ""
     archiveDateGrouping = "2006-01"
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
+    copyrightBy = "by Wuji"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
+    copyrightUrl = "https://github.com/CoolOctopus"
+    creditsText = "Powered by Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
 
@@ -166,11 +167,11 @@ disqusShortname = ""
 [Languages]
   [Languages.zh-cn]
     weight = 1
-    languageName = "中" 
+    languageName = "ZH" 
   [Languages.en]
     weight = 2
     title = "XXNote"
-    languageName = ""
+    languageName = "EN"
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
