@@ -447,7 +447,7 @@ html {
 body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.8;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
@@ -9670,11 +9670,11 @@ readers do not read off random characters that represent icons */
   /* Legacy iOS */
   font-display: swap; }
 
-/* 阿里妈妈方圆体 VF Thin-300  AlimamaFangYuanTiVF-Thin */
+/* 阿里妈妈方圆体 VF Thin-400  AlimamaFangYuanTiVF-Thin */
 @font-face {
   font-family: '阿里妈妈方圆体 VF Thin';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   src: url("./fonts/AlimamaFangYuanTiVF-Thin.woff2") format("woff2"), url("./fonts/AlimamaFangYuanTiVF-Thin.woff") format("woff");
   /* Legacy iOS */
   font-display: swap; }
@@ -10159,6 +10159,8 @@ readers do not read off random characters that represent icons */
       .bilberry-hugo-theme article .content h6 {
         font-size: 1.2em;
         font-weight: bold; }
+      .bilberry-hugo-theme article .content li {
+        margin: 0; }
       .bilberry-hugo-theme article .content .meta {
         text-transform: uppercase;
         font-style: normal;
@@ -10241,7 +10243,9 @@ readers do not read off random characters that represent icons */
       .bilberry-hugo-theme article .content img, .bilberry-hugo-theme article .content figure {
         max-width: 100%;
         display: block;
-        margin: 0 auto; }
+        margin: 4.5rem 0;
+        box-shadow: 4px 4px 10px #d5d8df;
+        border-radius: 3px; }
       .bilberry-hugo-theme article .content video {
         max-width: 100%; }
       .bilberry-hugo-theme article .content #TableOfContents {
@@ -10532,15 +10536,15 @@ readers do not read off random characters that represent icons */
       .bilberry-hugo-theme #bubble-container .bubble:hover {
         background-color: #cfe0ed; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(1) {
-      top: 80px; }
+      top: 120px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(2) {
-      top: 140px; }
+      top: 180px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(3) {
-      top: 200px; }
+      top: 240px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(4) {
-      top: 260px; }
+      top: 300px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(5) {
-      top: 320px; }
+      top: 360px; }
     .bilberry-hugo-theme #bubble-container .bubble label {
       cursor: pointer;
       margin: 0;

@@ -74,6 +74,10 @@ article {
             font-weight: bold;
         }
 
+        li {
+            margin: 0;
+        }
+
         .meta {
             text-transform: uppercase;
             font-style: normal;
@@ -200,7 +204,9 @@ article {
         img, figure {
             max-width: 100%;
             display: block;
-            margin: 0 auto;
+            margin: 4.5rem 0;
+            box-shadow: 4px 4px 10px #d5d8df;
+            border-radius: 3px;
         }
 
         video {

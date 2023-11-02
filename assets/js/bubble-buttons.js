@@ -20,13 +20,16 @@ $(document).ready(function () {
     });
 
     // 生成网页二维码
-    var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: document.location.href,
-        width: 128,
-        height: 128,
-        colorDark : "#000000",
-        colorLight : "#ffffff",
-        correctLevel : QRCode.CorrectLevel.H
-    });
+    var qrcodeElement = document.getElementById("qrcode");
+    if (qrcodeElement) {
+        var qrcode = new QRCode(qrcodeElement, {
+            text: document.location.href,
+            width: 128,
+            height: 128,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+        });
+    }
 
 });

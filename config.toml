@@ -14,10 +14,13 @@ enableRobotsTXT = true
 DefaultContentLanguage = "zh-CN"
 
 # Enable / Disable Google Analytics statistics for your site
-googleAnalytics = "G-C8L9PKNW48"
+#googleAnalytics = "G-C8L9PKNW48"
 
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = ""
+
+# 开启中文字数统计功能
+hasCJKLanguage = true
 
 [params]
   # Custom CSS/JS modules that will be imported by the template.
@@ -47,7 +50,7 @@ disqusShortname = ""
   algolia_currentLanguageOnly = true
 
   # Enable / Disable comments on the articles via commento
-  commentoJsURL = "https://commento.lednerb.de/js/commento.js"
+  #commentoJsURL = "https://commento.lednerb.de/js/commento.js"
 
   # Enable / Disable Giscus comments
   giscus             = true
@@ -103,7 +106,7 @@ disqusShortname = ""
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
-    #pinnedPost = "/article/diary/20230919-delete-ccsdk/"
+    pinnedPost = "/status/article-categories/"
     # Set to true to pin only to the first page, false to all pages
     #pinOnlyToFirstPage = true
 
@@ -118,6 +121,7 @@ disqusShortname = ""
     # display the estimated reading time for an article
     showReadingTime = false
 
+    toc = true
     # Minimum word count to display the Table of Contents
     tocMinWordCount = 400
 
@@ -154,10 +158,10 @@ disqusShortname = ""
     archiveDateGrouping = "2006-01"
 
     # credits line configuration
-    copyrightBy = "by Wuji"
+    copyrightBy = "xxend.cool"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/CoolOctopus"
+    copyrightUrl = "https://xxend.cool"
     creditsText = "Powered by Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 

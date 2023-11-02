@@ -8,11 +8,11 @@
 
     </div>
 
-        {{ if ( .Params.showLeftBubbleButtons | default true ) }}
-            <div id="bubble-container">
-                {{ partial "bubble-buttons.html" . }}                
-            </div>
-        {{ end }}
+    {{ if ( .Params.showLeftBubbleButtons | default true ) }}
+        <div id="bubble-container">
+            {{ partial "bubble-buttons.html" . }}                
+        </div>
+    {{ end }}
 
     {{ if ( .Params.showReward | default true ) }}
         <div id="reward-container">

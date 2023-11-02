@@ -14,6 +14,14 @@ showReward: false
 
 创建本站的初衷是希望分享一些免费的资源、知识等等，但是我不想因此给网站内容设置界限。我更希望以后这里的内容可以涉及各行各业，所以名字里的“XX”由此而来，用“XX”指代任何行业，不过目前仅包括：编程和设计。
 
+## 技术栈
+- 博客系统：[hugo](https://gohugo.io)
+- 主题定制：[bilberry-hugo-theme](https://github.com/Lednerb/bilberry-hugo-theme)
+- 评论系统：[giscus](https://giscus.app)
+- 页面统计：[busuanzi](https://busuanzi.ibruce.info/)
+- 自动发布：[actions-hugo](https://github.com/peaceiris/actions-hugo)
+- 静态部署：[netlify](https://www.netlify.com/)
+
 
 ## 声明
 

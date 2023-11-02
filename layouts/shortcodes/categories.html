@@ -7,3 +7,40 @@
     </li>
     {{ end }}
 </ul>
+<style>
+    #all-categories {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0;
+    }          
+    #all-categories li {
+        flex-grow: 1;
+        list-style: none;
+        padding: .5rem 3rem;
+        margin: 0 1rem 1rem 0;
+        background: #1eaedb;
+        display: inline-block;
+        border-radius: 2px;
+        color: white;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #all-categories li:nth-child(5n+3) {
+        background: #f03c63;
+    }
+    #all-categories li:nth-child(5n+1),
+    #all-categories li:nth-child(5n+4) {
+        background: #5fc486;
+    }
+    #all-categories li:nth-child(7n+4),
+    #all-categories li:nth-child(7n+6){
+        background: #9948ea;
+    }
+
+    #all-categories a {
+        color: white;
+    }      
+</style>
