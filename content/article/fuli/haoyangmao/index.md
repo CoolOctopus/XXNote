@@ -28,7 +28,7 @@ excludeFromIndex: false
 		<div class="step-title">①</div>
 		<div class="step-content">
 			<p>微信扫码进入小程序或下载app，选择活动完成<strong>报名</strong>。</p>
-			<img alt="5元吃外卖" src="https://z1.ax1x.com/2023/11/02/piKoyX4.jpg" style="margin:0;">  
+			<img alt="5元吃外卖" src="xiaocan.jpg" style="margin:0;">  
 		</div>
 	</div>
 	<div class="step-card">
@@ -54,21 +54,21 @@ excludeFromIndex: false
 		<div class="step-title">①</div>
 		<div class="step-content">
 			<p>百度app内搜索：<strong>百度惠生活</strong>。</p>
-			<img src="https://z1.ax1x.com/2023/11/02/piKocnJ.jpg" alt="百度app领外卖优惠券" style="margin:0;">
+			<img src="img/bdhsh_01.jpg" alt="百度app领外卖优惠券" style="margin:0;">
 		</div>
 	</div>
 	<div class="step-card">
 		<div class="step-title">②</div>
 		<div class="step-content">
 			<p>进入百度惠生活小程序，点击<strong>外卖红包</strong>。</p>
-			<img src="https://z1.ax1x.com/2023/11/02/piKo27R.jpg" alt="百度app领外卖优惠券" style="margin:0;">
+			<img src="img/bdhsh_02.jpg" alt="百度app领外卖优惠券" style="margin:0;">
 		</div>
 	</div>
 	<div class="step-card">
 		<div class="step-title">③</div>
 		<div class="step-content">
 			<p>领取优惠券，页面内的优惠券只能在百度app内使用。</p>
-			<img src="https://z1.ax1x.com/2023/11/02/piKogB9.jpg" alt="百度app领外卖优惠券" style="margin:0;">
+			<img src="img/bdhsh_03.jpg" alt="百度app领外卖优惠券" style="margin:0;">
 		</div>
 	</div>
 </div>

@@ -19,15 +19,15 @@ author: "Wuji"
 
 Mockupbro是一个专业的免费样机资源平台，提供了丰富多样的模型素材和工具，有助于提升我们的设计效率和质量。
 
-![](https://z1.ax1x.com/2023/11/02/piK77TA.jpg)
+![](img/mockupbro01.jpg)
 
 Mockupbro拥有广泛的样机库，涵盖了各种行业和场景所需的样机资源。不论是手机设备、品牌标志、包装设计还是宣传海报等等，在这里都能找到适合自己项目需要的高质量样机。而且，这些样机都经过精心制作和优化，保证了其真实性和细节表现力。
 
-![](https://z1.ax1x.com/2023/11/02/piK7bFI.jpg)
+![](img/mockupbro02.jpg)
 
 在Mockupbro上直接提供了在线编辑的功能，无需下载psd文件，生成效果图速度更快，并且减少了对设备和软件的依赖。
 
-![](https://z1.ax1x.com/2023/11/02/piK7Twd.jpg)
+![](img/mockupbro03.jpg)
 
 
 ## 传送门
