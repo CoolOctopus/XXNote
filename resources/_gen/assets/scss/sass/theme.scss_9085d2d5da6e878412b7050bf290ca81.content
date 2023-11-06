@@ -447,7 +447,7 @@ html {
 body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.8;
+  line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
@@ -9712,13 +9712,13 @@ readers do not read off random characters that represent icons */
   padding: 0 !important; }
 
 .dimbox-caption {
-  font-size: 1.6rem; }
+  font-size: 1.5rem; }
 
 .bilberry-hugo-theme {
   background-color: #f2f3f5;
   font-family: "Open Sans", sans-serif;
   color: #222;
-  font-size: 1.6em;
+  font-size: 1.5em;
   /* do not group these rules */ }
   .bilberry-hugo-theme h1,
   .bilberry-hugo-theme h2,
@@ -10024,8 +10024,7 @@ readers do not read off random characters that represent icons */
       margin-bottom: 3em; }
       .bilberry-hugo-theme header .titles h3 {
         margin-bottom: 0;
-        font-size: 3.25rem;
-        font-family: '阿里妈妈方圆体 VF Thin','Open Sans',sans-serif; }
+        font-size: 3.25rem; }
     .bilberry-hugo-theme header .languages {
       position: absolute;
       right: 0;
@@ -10111,7 +10110,10 @@ readers do not read off random characters that represent icons */
         .bilberry-hugo-theme .main .article-wrapper .bubble:hover {
           background-color: #cfe0ed; }
   .bilberry-hugo-theme article {
-    border-radius: 4px;
+    --border-primary: #e1e1e1;
+    --border-secondary: #cdcdcd;
+    --elem-radius: 0.4rem;
+    border-radius: var(--elem-radius);
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06), 0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
@@ -10148,6 +10150,8 @@ readers do not read off random characters that represent icons */
           .bilberry-hugo-theme article .content h1 a:hover {
             color: #249ffd;
             text-decoration: none; }
+      .bilberry-hugo-theme article .content h2, .bilberry-hugo-theme article .content h3, .bilberry-hugo-theme article .content h4, .bilberry-hugo-theme article .content h5, .bilberry-hugo-theme article .content h6 {
+        font-weight: 500; }
       .bilberry-hugo-theme article .content h2 {
         font-size: 1.6em; }
       .bilberry-hugo-theme article .content h3 {
@@ -10199,6 +10203,19 @@ readers do not read off random characters that represent icons */
         font-style: normal; }
         .bilberry-hugo-theme article .content a.more:hover {
           text-decoration: underline; }
+      .bilberry-hugo-theme article .content table {
+        border: 1px solid var(--border-primary);
+        border-collapse: separate;
+        border-spacing: 0; }
+        .bilberry-hugo-theme article .content table th, .bilberry-hugo-theme article .content table td {
+          padding: .8rem 1.2rem;
+          border-left: 1px solid var(--border-secondary); }
+        .bilberry-hugo-theme article .content table th:first-child, .bilberry-hugo-theme article .content table td:first-child {
+          border-left: 0; }
+        .bilberry-hugo-theme article .content table tr:last-child td {
+          border-bottom: 0; }
+      .bilberry-hugo-theme article .content time {
+        font-size: 1.2rem; }
       .bilberry-hugo-theme article .content .task-list {
         list-style: none; }
         .bilberry-hugo-theme article .content .task-list .task-list-item {
@@ -10231,8 +10248,7 @@ readers do not read off random characters that represent icons */
         font-family: "Open Sans", sans-serif;
         margin: 1.5em 0;
         padding: 2em;
-        border-left: 0.5em solid #ededed;
-        font-size: 1.05em; }
+        border-left: 0.5em solid #ededed; }
         .bilberry-hugo-theme article .content blockquote cite {
           text-transform: uppercase;
           font-style: normal;
@@ -10519,7 +10535,7 @@ readers do not read off random characters that represent icons */
       position: -webkit-sticky;
       /* Safari */
       position: sticky;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       background-color: #fff;
       border: 3px solid white;
       width: 45px;
@@ -10538,13 +10554,13 @@ readers do not read off random characters that represent icons */
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(1) {
       top: 120px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(2) {
-      top: 180px; }
+      top: 185px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(3) {
-      top: 240px; }
+      top: 245px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(4) {
-      top: 300px; }
+      top: 305px; }
     .bilberry-hugo-theme #bubble-container .bubble:nth-child(5) {
-      top: 360px; }
+      top: 365px; }
     .bilberry-hugo-theme #bubble-container .bubble label {
       cursor: pointer;
       margin: 0;
@@ -10679,73 +10695,77 @@ readers do not read off random characters that represent icons */
     .bilberry-hugo-theme .credits .container:after {
       display: none; }
   @media (max-width: 800px) {
-    .bilberry-hugo-theme nav.permanentTopNav {
-      display: none; }
-    .bilberry-hugo-theme nav .container {
-      flex-direction: column-reverse;
-      padding: 1em 2em; }
-      .bilberry-hugo-theme nav .container .topnav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.5em;
+    .bilberry-hugo-theme {
+      font-size: 1.4rem; }
+      .bilberry-hugo-theme nav.permanentTopNav {
+        display: none; }
+      .bilberry-hugo-theme nav .container {
+        flex-direction: column-reverse;
+        padding: 1em 2em; }
+        .bilberry-hugo-theme nav .container .topnav {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0.5em;
+          width: 100%; }
+          .bilberry-hugo-theme nav .container .topnav li {
+            width: 100%; }
+          .bilberry-hugo-theme nav .container .topnav a {
+            padding: 0.75em 0;
+            display: block;
+            width: 100%; }
+        .bilberry-hugo-theme nav .container .search {
+          margin: 0.5em 1.5em;
+          width: 100%; }
+          .bilberry-hugo-theme nav .container .search input {
+            width: 100%; }
+      .bilberry-hugo-theme header {
         width: 100%; }
-        .bilberry-hugo-theme nav .container .topnav li {
-          width: 100%; }
-        .bilberry-hugo-theme nav .container .topnav a {
-          padding: 0.75em 0;
-          display: block;
-          width: 100%; }
-      .bilberry-hugo-theme nav .container .search {
-        margin: 0.5em 1.5em;
-        width: 100%; }
-        .bilberry-hugo-theme nav .container .search input {
-          width: 100%; }
-    .bilberry-hugo-theme header {
-      width: 100%; }
-      .bilberry-hugo-theme header .container {
-        padding: 0 30px; }
-        .bilberry-hugo-theme header .container .titles {
-          font-size: 1.5rem;
-          line-height: 140%; }
-          .bilberry-hugo-theme header .container .titles .title {
-            font-size: 3rem;
-            line-height: 160%; }
-      .bilberry-hugo-theme header .toggler {
-        right: 14px; }
-        .bilberry-hugo-theme header .toggler.permanentTopNav {
-          display: block; }
-      .bilberry-hugo-theme header .languages {
-        right: 14px; }
-    .bilberry-hugo-theme .bubble {
-      display: none !important; }
-    .bilberry-hugo-theme .container {
-      width: 100%;
-      padding: 0; }
-    .bilberry-hugo-theme .container:before,
-    .bilberry-hugo-theme .container:after {
-      display: none !important; }
-    .bilberry-hugo-theme .main {
-      margin-bottom: 0; }
-    .bilberry-hugo-theme .main article {
-      margin: 14px;
-      width: 100%; }
-      .bilberry-hugo-theme .main article:before, .bilberry-hugo-theme .main article:after {
+        .bilberry-hugo-theme header .container {
+          padding: 0 30px; }
+          .bilberry-hugo-theme header .container .titles {
+            font-size: 1.5rem;
+            line-height: 140%; }
+            .bilberry-hugo-theme header .container .titles .title {
+              font-size: 3rem;
+              line-height: 160%; }
+        .bilberry-hugo-theme header .toggler {
+          right: 14px; }
+          .bilberry-hugo-theme header .toggler.permanentTopNav {
+            display: block; }
+        .bilberry-hugo-theme header .languages {
+          right: 14px; }
+      .bilberry-hugo-theme .bubble {
         display: none !important; }
-    .bilberry-hugo-theme .main #reward-container,
-    .bilberry-hugo-theme .main #comments-container {
-      margin: 0 1.5em; }
-    .bilberry-hugo-theme .main .paginator {
-      margin: 1.5em;
-      margin-top: 50px; }
-    .bilberry-hugo-theme footer .container {
-      padding: 3em 2em 2em 2em;
-      flex-direction: column;
-      text-align: center; }
-      .bilberry-hugo-theme footer .container div {
+      .bilberry-hugo-theme .container {
         width: 100%;
-        margin: 0 !important; }
-    .bilberry-hugo-theme .credits .container {
-      padding: 4rem 1.5em; } }
+        padding: 0; }
+      .bilberry-hugo-theme .container:before,
+      .bilberry-hugo-theme .container:after {
+        display: none !important; }
+      .bilberry-hugo-theme .main {
+        margin-bottom: 0; }
+      .bilberry-hugo-theme .main article {
+        margin: 14px;
+        width: 100%; }
+        .bilberry-hugo-theme .main article:before, .bilberry-hugo-theme .main article:after {
+          display: none !important; }
+      .bilberry-hugo-theme .main .article-wrapper {
+        padding-top: 20px; }
+      .bilberry-hugo-theme .main #reward-container,
+      .bilberry-hugo-theme .main #comments-container {
+        margin: 0 1.5em; }
+      .bilberry-hugo-theme .main .paginator {
+        margin: 1.5em;
+        margin-top: 50px; }
+      .bilberry-hugo-theme footer .container {
+        padding: 3em 2em 2em 2em;
+        flex-direction: column;
+        text-align: center; }
+        .bilberry-hugo-theme footer .container div {
+          width: 100%;
+          margin: 0 !important; }
+      .bilberry-hugo-theme .credits .container {
+        padding: 4rem 1.5em; } }
 
 /*# sourceMappingURL=theme.css.map */

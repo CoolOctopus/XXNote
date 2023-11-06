@@ -32,7 +32,7 @@ hasCJKLanguage = true
 
   # Description and meta data for the search engines
   author = "xxend.cool"
-  description = "看见笔记——分享笔记、素材、资源、工具"
+  description = "XX笔记——分享笔记、素材、资源、工具"
   keywords = "编程,设计,素材,笔记,资源,工具,素材网址,设计参考"
 
   # How many articles should be displayed at once?
@@ -43,9 +43,9 @@ hasCJKLanguage = true
 
   # Enable / Disable algolia search
   algolia_search    = true
-  algolia_appId     = "45CEN6X6AT"
-  algolia_apiKey    = "16030625f1a4d0dd3b8aefd794fd4cf1"
-  algolia_indexName = "bilberry-hugo-theme"
+  algolia_appId     = "9ZGP1NUCW2"
+  algolia_apiKey    = "6a466a8633305d9f517cb4d5282f78f4"
+  algolia_indexName = "xxnote"
   # Set this option to false if you want to search within all articles in all languages at once
   algolia_currentLanguageOnly = true
 
@@ -83,7 +83,7 @@ hasCJKLanguage = true
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "好内容值得被看见。"
+    subtitle = "好内容值得被看见"
 
     # if you want to use libravatar or gravatar for the header image
     avatarEmail = "code@lednerb.de"
@@ -147,7 +147,7 @@ hasCJKLanguage = true
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     # { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter", rel = "me" },
     socialMediaLinks = [
-      { link = "#", icon = "fa-brands fa-weixin"},
+      { link = "https://mp.weixin.qq.com/s/491MmanyLVIkwlY23dC59g", icon = "fa-brands fa-weixin"},
       { link = "https://github.com/CoolOctopus/XXNote", icon = "fab fa-github" },
     ]
 

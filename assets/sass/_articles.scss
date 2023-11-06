@@ -1,5 +1,8 @@
 article {
-    border-radius: 4px;
+    --border-primary: #e1e1e1;
+    --border-secondary: #cdcdcd;
+    --elem-radius: 0.4rem;
+    border-radius: var(--elem-radius);
     overflow: hidden;
     background-color: $article-background-color;
     box-shadow: 0.5rem 0.875rem 2.375rem rgba(39,44,49,.06), 0.0625rem 0.1875rem 0.5rem rgba(39,44,49,.03);
@@ -53,26 +56,19 @@ article {
             }
         }
 
-        h2 {
-            font-size: 1.6em;
+        h2, h3, h4, h5, h6 {
+            font-weight: 500;
         }
 
-        h3 {
-            font-size: 1.5em;
-        }
+        h2 { font-size: 1.6em; }
 
-        h4 {
-            font-size: 1.4em;
-        }
+        h3 { font-size: 1.5em; }
 
-        h5 {
-            font-size: 1.3em;
-        }
+        h4 { font-size: 1.4em; }
 
-        h6 {
-            font-size: 1.2em;
-            font-weight: bold;
-        }
+        h5 { font-size: 1.3em; }
+
+        h6 { font-size: 1.2em; font-weight: bold;}
 
         li {
             margin: 0;
@@ -138,6 +134,29 @@ article {
             }
         }
 
+        table {
+            border: 1px solid var(--border-primary);
+            border-collapse: separate;
+            border-spacing: 0;
+
+            th,td {
+                padding: .8rem 1.2rem;
+                border-left: 1px solid var(--border-secondary);
+            }
+
+            th:first-child, td:first-child {
+                border-left: 0;
+            }
+
+            tr:last-child td {
+                border-bottom: 0;
+            }
+        }
+
+        time {
+            font-size: 1.2rem;
+        }
+
         .task-list {
             list-style: none;
 
@@ -187,7 +206,7 @@ article {
             margin: 1.5em 0;
             padding: 2em;
             border-left: 0.5em solid #ededed;
-            font-size: 1.05em;
+            // font-size: 1.05em;
 
             cite {
                 text-transform: uppercase;
@@ -488,4 +507,4 @@ article {
 }
 
 @import "reward";
-@import "bubble-buttons";
+@import "bubble-buttons"; 

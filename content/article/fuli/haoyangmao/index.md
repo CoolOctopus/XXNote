@@ -19,8 +19,7 @@ excludeFromIndex: false
 
 ## 5块钱吃外卖
 
-+ 分享一个外卖点餐领取优惠的办法。
-+ 具体优惠视当地商家情况而定，实测在很多商家点一餐只要几块钱。
++ 具体优惠视当地商家情况而定，实测有很多商家点一餐只要几块钱。
 + 活动名额有限，点单要尽早。
 
 <div class="container step-card-box">
@@ -49,6 +48,8 @@ excludeFromIndex: false
 	</div>
 
 </div>
+
+<hr>
 
 ## 百度app领外卖券
 
@@ -107,7 +108,7 @@ excludeFromIndex: false
 	    display: flex;
 	    width: 0;
 	    height: 0;
-	    border: .8rem solid;
+	    border: 1.2rem solid;
 	    border-color: white transparent transparent white;
 	    background: #249ffd;
 	    position: relative;
@@ -128,7 +129,7 @@ excludeFromIndex: false
 	.step-card .step-content {
 	    font-size: 1.5rem;
 	    text-align: justify;
-	    padding: 0 1rem;
+	    padding: 0 2rem;
 	}
 
 	.step-card p {
