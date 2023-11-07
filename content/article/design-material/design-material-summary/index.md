@@ -5,6 +5,9 @@ draft: false
 categories: ["资源汇总"]
 tags: ["图库","字体","样机","插画","SVG","ICON"]
 author: "Wuji"
+
+externalLinks: [
+      { link : "https://mp.weixin.qq.com/s/491MmanyLVIkwlY23dC59g", icon: "fa-brands fa-weixin"}]
 ---
 
 素材图库 | 字体 | 样机资源 | 插画素材 | 图标素材 | SVG矢量素材 | ICON图标  

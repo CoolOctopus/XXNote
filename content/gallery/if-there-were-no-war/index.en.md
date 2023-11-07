@@ -10,12 +10,25 @@ tags: ["Illustration"]
 author: "Wuji"
 ---
 
-
-我想向你推荐一组插画，如果没有战争，世界会有多美
+I would like to recommend this set of illustrations to you.
+It should be a painting from a few years ago, but no matter how long it takes, we can clearly feel the emotions and power conveyed in the work.
 
 <!--more-->
 
-这组插画来自艺术家 Morshed Mishu ，他参加了ins上的一个名为"The Global Happiness Challenge"的活动，通过他的画笔，描绘了和平的美好，同时告诉我们，现代战争带给不幸者的巨大苦难。这种巨大的反差震撼人心。这组插画给了人们向往和平的动力和维护和平的理由。
+1. Desperate and Crying Father and Daughter → Father and Daughter Playing happily 🎈
+2. Sister uses a ventilator for her sister → Sister feeds her sister 🍼
+3. Father and son who died in the ruins of war → In 🛏️ Father and son who sleep in late
+4. Sad and helpless sisters → release peace 🕊️ 's sisters
+5. Losing Legs in War → Happy Fishing by the Little River 🐟
+6. A little boy covered in injuries → Read comics 🖼️ Little boy
+7. Smoke from explosions in the city → lush green trees 🌳
+8. Life lost due to air raid → Children playing happily 👼
+9. Street protests against attacked students → Winning the championship ✌️ Celebrating Students
+10. A little girl with blood and dirt on her face → Eating chocolate 🍫 A little girl with a covered face
 
+This set of illustrations is from artist Morshed Mishu, who uses his brush to redraw the beauty of peace and tell us the immense suffering that modern warfare brings to the unfortunate. 🤕💔 The huge contrast shakes people's hearts.
 
-题外话：看到一条评论说，喊口号没有屁用。但是从古至今，在受到压迫的年代，总有人第一个喊出反抗的口号，而这个人往往带动了更多的人，所以做实事的人应该鼓励，喊口号的人同样应该鼓励。并且，我想说，在现代社会，“喊口号”的作用变得更大了。我们换个名词，大家就能理解了。“宣传”，喊口号本质就是宣传；开店要宣传、开公司要宣传、拍电影要宣传，宣传的作用不可忽视；所以我们要想做成一件事就应该积极的喊口号（宣传），例如在心里喊热爱和平，在网络上喊抵制战争等等。各位键盘xia们，都动起手来吧，愿世界和平，再无战争！
+This set of illustrations deeply reflects people's desire for peace and the reasons for maintaining peace. 😇💪
+
+Which painting left the deepest impression on you? Welcome to discuss 💬.
+May the world be peaceful and there will be no more wars! 🙏

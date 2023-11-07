@@ -36,7 +36,7 @@ hasCJKLanguage = true
   keywords = "编程,设计,素材,笔记,资源,工具,素材网址,设计参考"
 
   # How many articles should be displayed at once?
-  paginate = 12
+  paginate = 10
 
   # Enable / Disable MathJax
   enable_mathjax    = false
@@ -106,9 +106,9 @@ hasCJKLanguage = true
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
-    pinnedPost = "/status/article-categories/"
+    pinnedPost = "/status/recommend-articles/,/status/article-categories/"
     # Set to true to pin only to the first page, false to all pages
-    #pinOnlyToFirstPage = true
+    pinOnlyToFirstPage = true
 
     # enable automatic localization of the article's published date using Moment.js
     enableMomentJs = true
