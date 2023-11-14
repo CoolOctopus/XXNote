@@ -13,3 +13,4 @@ author: ""
 
 - [100个设计素材网站](/article/design-material/design-material-summary/)
 - [100个设计神器](/article/design-tool/design-tool-summary/)
+- [薅羊毛](/article/fuli/haoyangmao/)

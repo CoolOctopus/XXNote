@@ -19,13 +19,13 @@ author: "Wuji"
 
 一番搜索没有得到满意的答案，但是我发现一条联想官网的[链接](https://support.lenovo.com/us/en/solutions/ps500284-ccsdk-discontinuation)，我毫不犹豫点了进去，毕竟官方信息可信度很高。
 
-![](img/delete-ccsdk-02.png)
+![](img/delete-ccsdk-02.jpg)
 
 根据网页内容（原版为英文，已经过翻译），CCSDK早已停止服务，软件中存在一个潜在漏洞，可能允许本地权限提升，官方建议尽早删除。这下咱可以安心删除了。不得不说，咱们作为用户也要感谢 Qihoo 360 Core Security 的Zhiniang Peng 和华南理工大学的 Jiadong Lu 报告了此问题。
 
 我到[联想官网](https://www.lenovo.com.cn/)进一步检索关于CCSDK的问题，果然有了新的发现，事实上CCSDK的权限提升漏洞在2017年就被发现并修复过，没想到停止维护之后问题又出现了。这个bug可能有它必然存在的原因。不过与我们现在都无关紧要，我们只要删除软件就没有问题了。
 
-![](img/delete-ccsdk-03.png)
+![](img/delete-ccsdk-03.jpg)
 
 联想提供的服务其实很周到，有相关问题可以直接到联想官网搜索，得到的答案可能更准确。只是我们因为长期使用度娘等搜索引擎，养成了习惯，搜索此类问题反而可能走了弯路。
 
