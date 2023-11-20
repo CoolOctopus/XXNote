@@ -3,7 +3,7 @@ title: "推荐一组催泪的插画，原来天堂和地狱离我们同样近"
 date: 2023-11-05T20:52:33+08:00
 draft: false
 imageSlider: false
-categories: ["推荐"]
+categories: ["插画"]
 tags: ["插画"]
 author: "Wuji"
 ---

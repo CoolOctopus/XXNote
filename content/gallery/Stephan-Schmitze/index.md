@@ -5,7 +5,7 @@ draft: false
 
 imageSlider: false   #set to false if you don't want to use the imageSlider but a featuredImage
 
-categories: ["推荐"]
+categories: ["插画"]
 tags: ["插画"]
 author: "Wuji"
 ---
