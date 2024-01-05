@@ -6,6 +6,7 @@ weight: 10
 readingTime: 0
 showDate: false
 showReward: false
+target: "_blank"
 ---
 
 不知名的朋友，你好，我是本站的创建者，我叫。。额，我还没想好这个角色的代号。暂时叫我**不知名站长**吧，你我都是不知名的人。
