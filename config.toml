@@ -45,8 +45,8 @@ hasCJKLanguage = true
   algolia_search    = true
   algolia_appId     = "9ZGP1NUCW2"
   # only-search
-  # algolia_apiKey    = "6a466a8633305d9f517cb4d5282f78f4"  
-  algolia_apiKey    = "f4b0adca6c546597334977461b4539d9"
+  algolia_apiKey    = "6a466a8633305d9f517cb4d5282f78f4"  
+  # algolia_apiKey    = "f4b0adca6c546597334977461b4539d9"
   algolia_indexName = "xxnote"
   # Set this option to false if you want to search within all articles in all languages at once
   algolia_currentLanguageOnly = true
